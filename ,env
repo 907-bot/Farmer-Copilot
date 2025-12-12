@@ -1,0 +1,12 @@
+# Weather Data
+OPENWEATHER_API_KEY=your_openweather_key_here
+
+# Multilingual Translation
+DEEPL_API_KEY=your_deepl_key_here
+
+# LLM Engine
+HUGGINGFACE_TOKEN=hf_your_token_here
+
+# Optional
+SUPABASE_URL=your_supabase_url
+SUPABASE_KEY=your_supabase_key
