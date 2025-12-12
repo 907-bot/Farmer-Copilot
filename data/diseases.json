@@ -1,0 +1,239 @@
+{
+  "powdery_mildew": {
+    "id": "pm_001",
+    "name": "Powdery Mildew",
+    "hindi_name": "चूर्णी फफूंद",
+    "scientific_name": "Erysiphe spp.",
+    "description": "Fungal disease causing white powdery coating on leaves",
+    "severity": "Medium",
+    "affected_crops": [
+      "wheat",
+      "rice",
+      "cotton",
+      "grapes"
+    ],
+    "symptoms": [
+      "White powder on leaves and stems",
+      "Yellow leaves that turn brown",
+      "Leaf curling and distortion",
+      "Stunted plant growth",
+      "Premature leaf fall",
+      "Reduced fruit quality"
+    ],
+    "conditions_favorable": {
+      "temperature_min": 15,
+      "temperature_max": 25,
+      "humidity_min": 40,
+      "humidity_max": 60,
+      "rainfall": "Dry conditions"
+    },
+    "treatment": [
+      "Spray Sulfur dust (500 kg/ha) - Organic method",
+      "Use Carbendazim fungicide (0.1%)",
+      "Apply Potassium bicarbonate",
+      "Spray neem oil (5%)",
+      "Remove infected leaves and parts",
+      "Improve air circulation around plants"
+    ],
+    "prevention": [
+      "Select resistant crop varieties",
+      "Maintain proper plant spacing",
+      "Avoid excess nitrogen fertilization",
+      "Ensure timely irrigation",
+      "Remove weeds from field",
+      "Clean tools and equipment",
+      "Crop rotation (3 years)"
+    ],
+    "organic_methods": [
+      "Sulfur dusting",
+      "Neem oil spray",
+      "Potassium bicarbonate",
+      "Milk spray (1:10 ratio)"
+    ],
+    "chemical_methods": [
+      "Carbendazim 12% + Mancozeb 63% (0.2%)",
+      "Sulfur 80% WP",
+      "Hexaconazole 5% EC",
+      "Propiconazole 25% EC"
+    ],
+    "cost_estimate": {
+      "organic": "₹500-1000/ha",
+      "chemical": "₹1500-2500/ha"
+    },
+    "loss_if_untreated": "30-50% yield loss"
+  },
+  "brown_spot": {
+    "id": "bs_001",
+    "name": "Brown Spot",
+    "hindi_name": "भूरे धब्बे",
+    "scientific_name": "Bipolaris oryzae",
+    "description": "Fungal disease causing brown lesions on rice leaves",
+    "severity": "High",
+    "affected_crops": [
+      "rice"
+    ],
+    "symptoms": [
+      "Small brown circular spots on leaves",
+      "Concentric rings in lesions",
+      "Gray center with brown border",
+      "Spots enlarge and merge",
+      "Leaf tissue death",
+      "Reduced photosynthesis",
+      "Grain discoloration"
+    ],
+    "conditions_favorable": {
+      "temperature_min": 25,
+      "temperature_max": 32,
+      "humidity_min": 70,
+      "humidity_max": 100,
+      "rainfall": "High humidity and rainfall"
+    },
+    "treatment": [
+      "Spray Tricyclazole (75% WP) at 0.6 g/liter",
+      "Use Mancozeb fungicide",
+      "Apply Carbendazim",
+      "Remove infected leaves",
+      "Drain excess water from field",
+      "Improve air circulation"
+    ],
+    "prevention": [
+      "Use clean, certified seeds",
+      "Treat seeds with fungicide before sowing",
+      "Proper crop rotation (2-3 years)",
+      "Maintain proper spacing",
+      "Avoid waterlogging",
+      "Remove infected plant debris",
+      "Field sanitation"
+    ],
+    "organic_methods": [
+      "Trichoderma-treated seeds",
+      "Neem oil spray",
+      "Copper fungicide"
+    ],
+    "chemical_methods": [
+      "Tricyclazole 0.6%",
+      "Mancozeb 75% WP",
+      "Carbendazim 12% + Mancozeb 63%"
+    ],
+    "cost_estimate": {
+      "organic": "₹800-1200/ha",
+      "chemical": "₹2000-3000/ha"
+    },
+    "loss_if_untreated": "40-60% yield loss"
+  },
+  "leaf_blight": {
+    "id": "lb_001",
+    "name": "Leaf Blight",
+    "hindi_name": "पत्ती अंगमारी",
+    "scientific_name": "Xanthomonas oryzae",
+    "description": "Bacterial disease causing blight symptoms on rice leaves",
+    "severity": "High",
+    "affected_crops": [
+      "rice",
+      "wheat"
+    ],
+    "symptoms": [
+      "Gray-green water-soaked lesions",
+      "Yellow halo around lesions",
+      "Rapid spread of blight",
+      "Leaf tissue death and necrosis",
+      "Leaves appear scorched",
+      "Stem discoloration",
+      "Plant wilting"
+    ],
+    "conditions_favorable": {
+      "temperature_min": 25,
+      "temperature_max": 35,
+      "humidity_min": 80,
+      "humidity_max": 100,
+      "rainfall": "High moisture, high temperature"
+    },
+    "treatment": [
+      "Spray Copper oxychloride (0.3%)",
+      "Use Streptocycline",
+      "Apply Kasugamycin",
+      "Remove infected plant parts",
+      "Drain field to reduce moisture",
+      "Improve air circulation"
+    ],
+    "prevention": [
+      "Use resistant varieties",
+      "Avoid overcrowding of plants",
+      "Proper spacing and irrigation",
+      "Remove infected plants immediately",
+      "Field sanitation",
+      "Crop rotation",
+      "Clean seed sources"
+    ],
+    "organic_methods": [
+      "Copper fungicide (Bordeaux mixture)",
+      "Neem oil spray",
+      "Trichoderma treatment"
+    ],
+    "chemical_methods": [
+      "Copper oxychloride 50% WP",
+      "Streptomycin sulfate",
+      "Kasugamycin 3% SL"
+    ],
+    "cost_estimate": {
+      "organic": "₹1000-1500/ha",
+      "chemical": "₹2500-3500/ha"
+    },
+    "loss_if_untreated": "50-70% yield loss"
+  },
+  "rust": {
+    "id": "ru_001",
+    "name": "Rust",
+    "hindi_name": "गेहूं की लालमरी",
+    "scientific_name": "Puccinia graminis",
+    "description": "Fungal disease causing rust-colored pustules on wheat",
+    "severity": "Medium",
+    "affected_crops": [
+      "wheat"
+    ],
+    "symptoms": [
+      "Reddish-brown pustules on leaves",
+      "Powdery spore mass",
+      "Leaf yellowing",
+      "Leaf drying",
+      "Reduced photosynthesis",
+      "Poor grain development"
+    ],
+    "conditions_favorable": {
+      "temperature_min": 15,
+      "temperature_max": 20,
+      "humidity_min": 60,
+      "humidity_max": 80,
+      "rainfall": "Moderate moisture"
+    },
+    "treatment": [
+      "Spray Hexaconazole (0.1%)",
+      "Use Propiconazole",
+      "Apply Sulfur dust",
+      "Remove infected leaves",
+      "Improve air circulation"
+    ],
+    "prevention": [
+      "Plant resistant varieties",
+      "Timely sowing",
+      "Proper spacing",
+      "Avoid excess nitrogen",
+      "Clean seed treatment",
+      "Crop rotation"
+    ],
+    "organic_methods": [
+      "Sulfur dusting",
+      "Neem oil"
+    ],
+    "chemical_methods": [
+      "Hexaconazole 5% EC",
+      "Propiconazole 25% EC",
+      "Triazole fungicides"
+    ],
+    "cost_estimate": {
+      "organic": "₹600-1000/ha",
+      "chemical": "₹1800-2500/ha"
+    },
+    "loss_if_untreated": "20-40% yield loss"
+  }
+}
