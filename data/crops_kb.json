@@ -1,0 +1,26 @@
+{
+  "crops": {
+    "wheat": {
+      "name": "Wheat",
+      "scientific_name": "Triticum aestivum",
+      "season": "Rabi",
+      "duration_days": 120,
+      "temperature_optimal": [15, 25],
+      "rainfall_required_mm": 400,
+      "soil_ph": [6.5, 7.5],
+      "expected_yield_kg_per_ha": 4500,
+      "price_per_quintal": 2200
+    },
+    "rice": {
+      "name": "Rice",
+      "scientific_name": "Oryza sativa",
+      "season": "Kharif",
+      "duration_days": 120,
+      "temperature_optimal": [20, 35],
+      "rainfall_required_mm": 1200,
+      "soil_ph": [5.5, 7.5],
+      "expected_yield_kg_per_ha": 5500,
+      "price_per_quintal": 2500
+    }
+  }
+}
